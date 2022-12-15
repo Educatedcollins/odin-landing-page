@@ -1,0 +1,31 @@
+* {
+    background-color: rgb(107, 106, 106);
+    
+}
+
+body {
+    font-family: 'roboto', sans-serif
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 0 160px;
+}
+
+header > span {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+
+}
+
+a {
+    background-color: #1F2937;
+}
