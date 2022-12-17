@@ -6,3 +6,6 @@ The key concept I went over was FLEXBOX, A highly useful functional tool to alig
 Hopefully we will be able to notice a improvement in my Website creation skills and things works as expected.
 
 Thanks for reading and have a nice rest of your day.
+
+Images Credit
+Brett Sayles - https://www.pexels.com/photo/merry-christmas-sign-1656564/

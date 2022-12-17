@@ -85,3 +85,116 @@ h1 {
     height: 300px;
     
 }
+
+.info {
+  /*Won't be necessary once I change the main background color 
+    background-color: white; */
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 80px;
+}
+
+.cards {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+.cards img {
+    width: 200px;
+    height: 200px;
+    border: #3882F6 solid 4px;
+    border-radius: 20px;
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote1 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    width: 790px;
+}
+
+.quote2 {
+    background-color: #E5E7EB;
+    /*align self unnecessary but still in for fun I guess I don't know 
+    I like the solution to keep the Thor in line with the quote*/
+    align-self: center;
+    padding-left: 500px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.callta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 160px;
+
+}
+
+.callbox {
+    background-color: #3882F6;
+    padding: 40px 80px;
+    border-radius: 10px;
+}
+
+.callfull {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882F6;
+}
+
+.calltext {
+    background-color: #3882F6;
+}
+
+.calltext1 {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.calltext2 {
+    background-color: #3882F6;
+    font-size: 13px;
+    color: #F9FAF8;    
+}
+
+.callfull > button {
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 24px;
+    margin: 0;
+    border: white solid 2px;
+    font-weight: 700;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
